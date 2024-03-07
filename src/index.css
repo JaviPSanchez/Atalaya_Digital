@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Quicksand:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --font-rubik: 'Rubik', sans-serif;
+    --font-monoton: 'Monoton', monospace;
+    color-scheme: dark;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    /* font-size: 62.5%; */
+    /*1 rem = 10px; 10px/16px = 0.625 = 62.5% (browser default) = 62.5*/
+    user-select: none;
+    overflow-x: hidden;
+}
+
+@layer base {
+    body {
+        @apply font-sans bg-dark1 text-grey1 text-base;
+    }
+}
+
+.rotate-45 {
+    @apply rotate-[45deg];
+}
+
+.rotate-90 {
+    @apply rotate-[90deg];
+}
+
+.rotate-135 {
+    @apply rotate-[135deg];
+}
+
+.rotate-180 {
+    @apply rotate-[180deg];
+}
+
+.rotate-225 {
+    @apply rotate-[225deg];
+}
+
+.rotate-270 {
+    @apply rotate-[270deg];
+}
+
+.rotate-315 {
+    @apply rotate-[315deg];
+}
+
+.rotate-360 {
+    @apply rotate-[360deg];
+}
+
+.-rotate-45 {
+    @apply rotate-[-45deg];
+}
+
+.-rotate-90 {
+    @apply rotate-[-90deg];
+}
+
+.-rotate-135 {
+    @apply rotate-[-135deg];
+}
+
+.-rotate-180 {
+    @apply rotate-[-180deg];
+}
+
+.-rotate-225 {
+    @apply rotate-[-225deg];
+}
+
+.-rotate-270 {
+    @apply rotate-[-270deg];
+}
+
+.-rotate-315 {
+    @apply rotate-[-315deg];
+}
+
+.-rotate-360 {
+    @apply rotate-[-360deg];
+}
